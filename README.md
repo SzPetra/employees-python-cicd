@@ -11,3 +11,5 @@ This is a Python project.
 More than one remote repositories can be added (named differently, for example: origin&backup).
 
 In GitHub there is more detailed description for commits, which is the body of the commit, should describe what happened in the commit, HEADER is just the title of it.
+
+When using git status and "changes can be fast-forwarded" message displays, means there would be no conflict when merging the two together.
