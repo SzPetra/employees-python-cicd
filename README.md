@@ -34,7 +34,7 @@ This is a Python project.
 --git restore --source "commit hash" "file name": file will be restored back to the previous version of the specific commit (based on commit hash) (ONLY FILES WILL BE RESTORED ONE BY ONE/I can name directories instead of files)
 -- git restore "file": restore your changes and go back to previous commit
 
-git config --global core.editor "code --wait": change VI text editor for vs code when using "amend"
+git config --global core.editor "code --wait": change VI text editor for vs code when using "amend" (This is a command -> use in powershell)
 --git commit --amend: adding something to previous commit or changing commit message
 
 More than one remote repositories can be added (named differently, for example: origin&backup).
