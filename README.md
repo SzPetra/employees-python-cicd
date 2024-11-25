@@ -32,6 +32,7 @@ This is a Python project.
 --git reset --hard HEAD~: commit is taken back, but your chnages will not be kept anymore
 
 --git restore --source "commit hash" "file name": file will be restored back to the previous version of the specific commit (based on commit hash) (ONLY FILES WILL BE RESTORED ONE BY ONE/I can name directories instead of files)
+-- git restore "file": restore your changes and go back to previous commit
 
 More than one remote repositories can be added (named differently, for example: origin&backup).
 
