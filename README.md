@@ -6,6 +6,7 @@ This is a Python project.
 --git -v: check the remote repositories conected
 --git remote remove origin: deletes connected origin(alias) remote repository
 --git -u origin master: add remote origin(alias) repository
+--git log: only show log of local repository, to check remote -> git log origin/master
 
 More than one remote repositories can be added (named differently, for example: origin&backup).
 
