@@ -20,6 +20,8 @@ This is a Python project.
 --git stash clear: delete stash list items
 --git stash pop stash{1}: can bring back changes other than the latest (1 in here is the index of item in stash list)
 
+--git checkout -b hello-world: crates hello-world branch and checks out to branch as well
+
 More than one remote repositories can be added (named differently, for example: origin&backup).
 
 In GitHub there is more detailed description for commits, which is the body of the commit, should describe what happened in the commit, HEADER is just the title of it.
