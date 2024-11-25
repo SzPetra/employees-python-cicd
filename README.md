@@ -36,4 +36,4 @@ When using git abort, (when having merge conflict) it will go back to previous s
 HEAD is the last commit by Git definition.
 
 ---------TRYING MERGE CONFLICT------------
-branch merge 2
+branch merge 23
