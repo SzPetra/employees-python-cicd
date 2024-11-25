@@ -20,7 +20,9 @@ This is a Python project.
 --git stash clear: delete stash list items
 --git stash pop stash{1}: can bring back changes other than the latest (1 in here is the index of item in stash list)
 
---git checkout -b hello-world: crates hello-world branch and checks out to branch as well
+--git checkout -b hello-world: creates hello-world branch and checks out to branch as well
+--git branch: lists all available branches in respository
+--git switch master: checks out to main branch
 
 More than one remote repositories can be added (named differently, for example: origin&backup).
 
