@@ -23,6 +23,7 @@ This is a Python project.
 --git checkout -b hello-world: creates hello-world branch and checks out to branch as well
 --git branch: lists all available branches in respository
 --git switch master: checks out to main branch
+--git branch -d "branch name": deletes the branch in local repository
 
 --git commit -a -m "": -a -> will add the files, don't have to run it in different command
 
