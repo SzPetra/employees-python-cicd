@@ -27,6 +27,10 @@ This is a Python project.
 
 --git commit -a -m "": -a -> will add the files, don't have to run it in different command
 
+--git reset --soft HEAD~: commit is taken back, but your changes will still be kept to commit again
+--git reset --mixed HEAD~: 
+--git reset --hard HEAD~: commit is taken back, but your chnages will not be kept anymore
+
 More than one remote repositories can be added (named differently, for example: origin&backup).
 
 In GitHub there is more detailed description for commits, which is the body of the commit, should describe what happened in the commit, HEADER is just the title of it.
