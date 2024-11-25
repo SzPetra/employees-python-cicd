@@ -47,3 +47,4 @@ When using git status and "diverged" message displays, means when merging the tw
 When using git abort, (when having merge conflict) it will go back to previous state of my LOCAL repository as if I haven't pulled the changes from REMOTE.
 
 HEAD is the last commit by Git definition.
+
