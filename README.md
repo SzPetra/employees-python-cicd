@@ -14,3 +14,5 @@ In GitHub there is more detailed description for commits, which is the body of t
 
 When using git status and "changes can be fast-forwarded" message displays, means there would be no conflict when merging the two together.
 When using git status and "diverged" message displays, means when merging the two branch will have conflict.
+
+When using git abort, (when having merge conflict) it will go back to previous state of my LOCAL repository as if I haven't pulled the changes from REMOTE.
