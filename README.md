@@ -37,6 +37,12 @@ This is a Python project.
 git config --global core.editor "code --wait": change VI text editor for vs code when using "amend" (This is a command -> use in powershell)
 --git commit --amend: adding something to previous commit or changing commit message
 
+--git tag v1.0.2 -m "message": adds tag to commit, branch
+--git tag: lists all the tags
+--git push origin --tags/'tag name': pushes up the tag
+On release branch the last commit/HEAD should have the tag with the version
+Or if working on feature branches -> when merging the branch to master
+
 More than one remote repositories can be added (named differently, for example: origin&backup).
 
 In GitHub there is more detailed description for commits, which is the body of the commit, should describe what happened in the commit, HEADER is just the title of it.
@@ -47,4 +53,3 @@ When using git status and "diverged" message displays, means when merging the tw
 When using git abort, (when having merge conflict) it will go back to previous state of my LOCAL repository as if I haven't pulled the changes from REMOTE.
 
 HEAD is the last commit by Git definition.
-
