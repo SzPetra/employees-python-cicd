@@ -28,5 +28,6 @@ python style guide: https://peps.python.org/pep-0008/ (Python enhancement propos
 Documentation creation (Python):
 - Sphinx
 - pdoc (pdoc -d markdown -o build/docs employees, o as output)
-- MkDocs
+- MkDocs (mkdocs serve(looks for md files) localhost:8000, as you save it updates) (mkdocs build /site directory)
 - Pandoc (document converter)
+C4 model diagram

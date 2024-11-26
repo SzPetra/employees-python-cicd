@@ -23,5 +23,6 @@ dev = [
     "webdriver-manager",
     "ruff",
     "pre-commit",
-    "pdoc"
+    "pdoc",
+    "mkdocs"
 ]
