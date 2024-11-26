@@ -41,3 +41,4 @@ ENTRYPOINT ["gunicorn", "--bind", "0.0.0.0:5000", "employees:app"]
 pytest test/unit -v: pytest "directory of test(no need to include the exact file only if there are more than one)" verbose, more detailed result of test
 
 pre-commit run --all-files: to use the pre-commit on every single files 
+pre-commit uninstall
