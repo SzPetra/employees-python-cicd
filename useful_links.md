@@ -31,3 +31,6 @@ Documentation creation (Python):
 - MkDocs (mkdocs serve(looks for md files) localhost:8000, as you save it updates) (mkdocs build /site directory)
 - Pandoc (document converter)
 C4 model diagram
+
+nektos/act: run the actions locally on my computer in a container
+gh act push: for checking on the workflow is correctly written

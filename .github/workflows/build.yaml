@@ -8,6 +8,8 @@ jobs:
         name: Build
         runs-on: ubuntu-latest
         # if it starts with action, that is trustworthy built in by git
+        permissions:
+          packages: write # if throws access denied
         steps:
             - uses: actions/checkout@v4
             - uses: actions/setup-python@v5
